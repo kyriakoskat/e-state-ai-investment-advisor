@@ -108,6 +108,6 @@ Developed collaboratively for the **FLUXE Makeathlon** challenge, "Real Estate B
 - Georgios Tzamouranis — ECE NTUA
 - Panagiotis Bampatsias — ECE NTUA
 - Basilis Koulouridis — ECE NTUA
-- Kyriakos Katsaidramis — ECE NTUA
+- Kyriakos Katsiadramis — ECE NTUA
 
 This repository presents the **team's** project; individual contribution details should be added only after confirmation by contributors. No license is asserted for third-party input data or code beyond what the respective owners provide.
