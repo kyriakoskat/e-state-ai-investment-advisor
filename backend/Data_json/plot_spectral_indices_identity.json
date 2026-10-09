@@ -1,0 +1,287 @@
+{
+  "dataset_name": "plot_spectral_indices_clean",
+  "source_file": "plot_spectral_indices_clean.xlsx",
+  "property_count": 4,
+  "properties": [
+    {
+      "property_id": "plot_Veroia",
+      "plot_name": "Veroia",
+      "identity": "high_vegetation_agricultural_asset",
+      "location": {
+        "latitude": 40.398697,
+        "longitude": 22.120677
+      },
+      "image_metadata": {
+        "height": 17,
+        "width": 18,
+        "bands": 224,
+        "source_type": "hyperspectral_image"
+      },
+      "spectral_indices": {
+        "NDVI": {
+          "mean": 0.849934,
+          "median": 0.882353,
+          "min": 0.461557,
+          "max": 0.894293,
+          "high_vegetation_percentage": 0.99308
+        },
+        "NDWI": {
+          "mean": -0.75653
+        },
+        "NDMI": {
+          "mean": 0.330731
+        },
+        "NDRE": {
+          "mean": 0.397324
+        },
+        "NBR": {
+          "mean": 0.613976
+        },
+        "GNDVI": {
+          "mean": 0.75653
+        }
+      },
+      "terrain_analysis": {
+        "slope_degrees": 13,
+        "terrain_suitability_score": 32.75,
+        "terrain_limitation_label": "moderate_terrain_constraint"
+      },
+      "investment_scores": {
+        "agriculture_score": 91.885757,
+        "pv_score": 50.15375,
+        "wind_score": 16.4,
+        "battery_score": 13.4,
+        "data_center_score": 11.4
+      },
+      "recommended_use": {
+        "final_recommendation": "agriculture_priority",
+        "confidence": "high"
+      },
+      "suggested_crops": [
+        "Ροδάκινα",
+        "Δαμάσκηνα",
+        "Μήλα",
+        "Βερίκοκα",
+        "Κεράσια",
+        "Καρύδια"
+      ],
+      "risk_flags": [
+        "moderate_terrain_constraint"
+      ],
+      "agent_ready_summary": {
+        "one_liner": "Veroia: agriculture_priority with high confidence.",
+        "best_strategy": "agriculture_priority"
+      }
+    },
+    {
+      "property_id": "plot_arkadia2",
+      "plot_name": "arkadia2",
+      "identity": "mixed_use_land_asset_needs_more_context",
+      "location": {
+        "latitude": 37.324456,
+        "longitude": 22.143828
+      },
+      "image_metadata": {
+        "height": 17,
+        "width": 18,
+        "bands": 224,
+        "source_type": "hyperspectral_image"
+      },
+      "spectral_indices": {
+        "NDVI": {
+          "mean": 0.620031,
+          "median": 0.64276,
+          "min": 0.150407,
+          "max": 0.854751,
+          "high_vegetation_percentage": 0.809689
+        },
+        "NDWI": {
+          "mean": -0.604039
+        },
+        "NDMI": {
+          "mean": 0.145349
+        },
+        "NDRE": {
+          "mean": 0.273566
+        },
+        "NBR": {
+          "mean": 0.368016
+        },
+        "GNDVI": {
+          "mean": 0.604039
+        }
+      },
+      "terrain_analysis": {
+        "slope_degrees": 16,
+        "terrain_suitability_score": 26.75,
+        "terrain_limitation_label": "high_terrain_constraint"
+      },
+      "investment_scores": {
+        "agriculture_score": 62.540888,
+        "pv_score": 60.004865,
+        "wind_score": 27.15832,
+        "battery_score": 24.15832,
+        "data_center_score": 22.15832
+      },
+      "recommended_use": {
+        "final_recommendation": "mixed_use_or_needs_more_context",
+        "confidence": "low"
+      },
+      "suggested_crops": [
+        "Ελιά",
+        "Σιτηρά",
+        "Βρώμη",
+        "Αμπέλια",
+        "Καρύδια"
+      ],
+      "risk_flags": [
+        "high_terrain_constraint"
+      ],
+      "agent_ready_summary": {
+        "one_liner": "arkadia2: mixed_use_or_needs_more_context with low confidence.",
+        "best_strategy": "mixed_use_or_needs_more_context"
+      }
+    },
+    {
+      "property_id": "plot_arkadia",
+      "plot_name": "arkadia",
+      "identity": "low_vegetation_pv_asset",
+      "location": {
+        "latitude": 37.651492,
+        "longitude": 22.366139
+      },
+      "image_metadata": {
+        "height": 18,
+        "width": 18,
+        "bands": 224,
+        "source_type": "hyperspectral_image"
+      },
+      "spectral_indices": {
+        "NDVI": {
+          "mean": 0.281865,
+          "median": 0.289446,
+          "min": 0.171875,
+          "max": 0.475995,
+          "high_vegetation_percentage": 0
+        },
+        "NDWI": {
+          "mean": -0.387447
+        },
+        "NDMI": {
+          "mean": -0.176435
+        },
+        "NDRE": {
+          "mean": 0.142209
+        },
+        "NBR": {
+          "mean": -0.031534
+        },
+        "GNDVI": {
+          "mean": 0.387447
+        }
+      },
+      "terrain_analysis": {
+        "slope_degrees": 18,
+        "terrain_suitability_score": 23.75,
+        "terrain_limitation_label": "severe_terrain_constraint"
+      },
+      "investment_scores": {
+        "agriculture_score": 23.183932,
+        "pv_score": 74.6485,
+        "wind_score": 30,
+        "battery_score": 27,
+        "data_center_score": 25
+      },
+      "recommended_use": {
+        "final_recommendation": "pv_priority",
+        "confidence": "high"
+      },
+      "suggested_crops": [
+        "Ελιά",
+        "Σιτηρά",
+        "Βρώμη",
+        "Αμπέλια",
+        "Καρύδια"
+      ],
+      "risk_flags": [
+        "severe_terrain_constraint",
+        "low_high_vegetation_coverage"
+      ],
+      "agent_ready_summary": {
+        "one_liner": "arkadia: pv_priority with high confidence.",
+        "best_strategy": "pv_priority"
+      }
+    },
+    {
+      "property_id": "plot_magnisia",
+      "plot_name": "magnisia",
+      "identity": "low_vegetation_pv_asset",
+      "location": {
+        "latitude": 39.174176,
+        "longitude": 22.766325
+      },
+      "image_metadata": {
+        "height": 18,
+        "width": 18,
+        "bands": 224,
+        "source_type": "hyperspectral_image"
+      },
+      "spectral_indices": {
+        "NDVI": {
+          "mean": 0.341716,
+          "median": 0.358568,
+          "min": -0.052326,
+          "max": 0.696335,
+          "high_vegetation_percentage": 0.199219
+        },
+        "NDWI": {
+          "mean": -0.436542
+        },
+        "NDMI": {
+          "mean": -0.040135
+        },
+        "NDRE": {
+          "mean": 0.151262
+        },
+        "NBR": {
+          "mean": 0.116458
+        },
+        "GNDVI": {
+          "mean": 0.436542
+        }
+      },
+      "terrain_analysis": {
+        "slope_degrees": 15,
+        "terrain_suitability_score": 29.75,
+        "terrain_limitation_label": "high_terrain_constraint"
+      },
+      "investment_scores": {
+        "agriculture_score": 35.315514,
+        "pv_score": 68.80509,
+        "wind_score": 21.303535,
+        "battery_score": 18.303535,
+        "data_center_score": 16.303535
+      },
+      "recommended_use": {
+        "final_recommendation": "pv_priority",
+        "confidence": "high"
+      },
+      "suggested_crops": [
+        "Ελιά",
+        "Σιτηρά",
+        "Βαμβάκι",
+        "Κριθάρι",
+        "Τομάτα",
+        "Αμυγδαλιά"
+      ],
+      "risk_flags": [
+        "high_terrain_constraint",
+        "low_high_vegetation_coverage"
+      ],
+      "agent_ready_summary": {
+        "one_liner": "magnisia: pv_priority with high confidence.",
+        "best_strategy": "pv_priority"
+      }
+    }
+  ]
+}
