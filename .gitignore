@@ -1,0 +1,35 @@
+.env
+.env.*
+!.env.example
+.env.local
+*.pyc
+__pycache__/
+.venv/
+venv/
+node_modules/
+dist/
+build/
+.vite/
+.pytest_cache/
+.mypy_cache/
+.coverage
+*.log
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Notebook & large research-data artifacts
+.ipynb_checkpoints/
+ml/data/
+ml/outputs/
+*.tif
+*.tiff
+*.parquet
+*.h5
+*.hdf5
+*.pkl
+*.joblib
+
+# TypeScript build cache
+*.tsbuildinfo
